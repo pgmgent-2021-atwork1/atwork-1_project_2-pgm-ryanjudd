@@ -1,0 +1,126 @@
+@font-face {
+  font-family:'Raleway';
+  src: url('../fonts/Raleway\ Regular.woff2') format('woff2'),
+  url('../fonts/Raleway\ Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+
+@font-face {
+  font-family:'Raleway';
+  src: url('../fonts/Raleway\ Bold.woff2') format('woff2'),
+  url('../fonts/Raleway\ Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway\ Thin.woff2') format('woff2'),
+    url('../fonts/Raleway\ Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+
+@font-face {
+  font-family:'Raleway';
+  src: url('../fonts/Raleway\ Medium.woff2') format('woff2'),
+  url('../fonts/Raleway\ Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+
+
+* {
+  font-family: 'Raleway';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.header-top {
+  background-image: url(../media/backgrounds/Gentse-feesten-05.jpg);
+  background-repeat: no-repeat;
+  height: 40rem;
+  background-size: cover;
+  background-position-x: 35%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header-bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dates-length {
+  width: 10rem;
+}
+
+.dates-top {
+  width: 100%;
+  margin: 1rem;
+}
+
+.dates-bottom {
+  width: 100%;
+}
+
+.dates-bottom ul {
+  background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dates {
+  width: 5rem;
+  font-size: 2rem;
+  text-align: center;
+  list-style: none;
+}
+
+.dates:hover {
+  background-color: #fff;
+}
+
+.dates a {
+  color: white;
+}
+
+.dates a:hover {
+  color: #000;
+}
+
+.date-bold {
+  font-weight: bold;
+  font-size: 2rem;
+  width: 100%
+}
+
+.date-date {
+  font-size: 1.1rem;
+  width: 100%;
+  display: block;
+}
+
+.hashtag {
+  height: 3rem;
+}
+
+.discover {
+  height: 3rem;
+}
