@@ -47,8 +47,50 @@
   text-decoration: none;
 }
 
+.logo-a {
+  height: min-content;
+}
+
+.burger-menu {
+  fill: #fff;
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
 .mobile-nav {
   display: none;
+}
+
+.mag-glass {
+  fill: #fff;
+}
+
+.fullList {
+  display: block;
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.fullList ul {
+  list-style-type: none
+}
+
+.program-button {
+  display: none;
+}
+
+.svg-down-arrow {
+  width: 1rem;
+  fill: #fff;
+  transform: rotate(-90deg);
 }
 
 .header-top {
@@ -80,41 +122,45 @@
   width: 100%;
 }
 
-.dates-bottom ul {
-  background-color: #000;
+.dates-wrapper {
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
+  background-color: #000;
 }
 
 .dates {
-  width: 5rem;
-  font-size: 2rem;
+  width: 20%;
   text-align: center;
   list-style: none;
 }
 
-.dates:hover {
-  background-color: #fff;
-}
-
 .dates a {
-  color: white;
-}
-
-.dates a:hover {
-  color: #000;
-}
-
-.date-bold {
-  font-weight: bold;
-  font-size: 2rem;
-  width: 100%
-}
-
-.date-date {
-  font-size: 1.1rem;
   width: 100%;
-  display: block;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.wrapper span:first-child {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.wrapper:hover {
+  background-color: #fff;
+  color: #000;
+  transition: ease .4s;
+}
+
+.wrapper span {
+  width: 100%;
 }
 
 .hashtag {
@@ -123,4 +169,157 @@
 
 .discover {
   height: 3rem;
+}
+
+.content {
+  margin: 3rem;
+}
+
+.bold-hyper {
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.news-top,
+.news-bottom {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  position: relative;
+}
+
+.news-bottom {
+  padding-bottom: 3rem;
+}
+
+.news-top figcaption {
+  position: absolute;
+  bottom: .4rem;
+  background-color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.news-top img{
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.inform {
+  border: .2rem solid #000;
+  margin: 2rem;
+  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #000;
+}
+
+.inform-wrapper {
+  padding-bottom: 3rem;
+}
+
+.slideshow img{
+  width: 100%;
+}
+
+.margin {
+  margin: 2rem;
+}
+
+.twitter img {
+  width: 100%;
+}
+
+.twitter-title-svg {
+  width: 12rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.newsletter {
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 1rem;
+  background-color: #E9E9E9;
+  border: none;
+}
+
+.newsletter-button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.socials-icons {
+  background: #fff;
+  border-radius: 100%;
+  margin: 1rem;
+  align-items: flex-end;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+}
+
+.footer-top {
+  background-image: url(../media/backgrounds/Gentse-feesten-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 35%;
+  padding-bottom: 10rem;
+  position: relative;
+}
+
+.footer-top__svg {
+  background-color: #fff;
+  width: 10rem;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+.footer-top__socials {
+  color: white;
+  width: 80%;
+  justify-self: flex-end;
+  position: absolute;
+  bottom: 0rem;
+  margin: 2rem;
+}
+
+.footer-bottom {
+  color: #6F6F6F;
+}
+
+.gent-logo {
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+.footer-bottom--bold {
+  font-weight: bold;
+}
+
+.cookie {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.cookie-wrapper {
+  margin-top: 1rem;
 }
