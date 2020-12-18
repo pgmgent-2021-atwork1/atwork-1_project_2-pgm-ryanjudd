@@ -47,15 +47,33 @@
   text-decoration: none;
 }
 
-.logo-a {
+.logo--hyper {
   height: min-content;
 }
 
+.logo--hyper img {
+  width: 10rem;
+}
+0.
 .burger-menu {
   fill: #fff;
-  width: 3rem;
-  height: 3rem;
+  width: 1.7rem;
+  height: 1.7rem;
   margin: 1rem;
+}
+
+.burger-menu:hover {
+  cursor: pointer;
+}
+
+.cross {
+  transition: ease .4s;
+  text-align: end;
+}
+
+.cross:hover {
+  cursor: pointer;
+  transform: rotate(180deg);
 }
 
 .mobile-nav {
@@ -171,8 +189,118 @@
   height: 3rem;
 }
 
+@media (min-width: 50rem) {
+  .dates {
+    width: 10%;
+  }
+}
+
+@media (min-width: 80rem) {
+  .dates {
+    width: 20%;
+  }
+
+  .dates-wrapper {
+    width: 45%;
+    position: absolute;
+    right: 0rem;
+    top: 26rem;
+  }
+
+  .wrapper {
+    background-color: #fff;
+    color: #000;
+  }
+  .wrapper:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .dates-top {
+    position: relative;
+  }
+
+  .dates-length {
+    position: absolute;
+    right: 19rem;
+    top: -22rem;
+  }
+
+  .discover {
+    fill: #fff;
+    height: 5rem;
+  }
+
+  .dates-logo-colour {
+    fill: #fff;
+  }
+
+  .dates-logo {
+    position: absolute;
+    right: 10rem;
+    height: 5rem;
+    rotate: -90deg;
+  }
+}
+
 .content {
-  margin: 3rem;
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+.content--figure--top {
+  position: relative;
+}
+
+.content--figure--top img{
+  width: 100%;
+}
+
+.content--figure--top figcaption {
+  background-color: #000;
+  color: #fff;
+  width: 15rem;
+  text-align: center;
+  font-size: 1.7rem;
+
+  position: absolute;
+  bottom: -1rem;
+  left: 2rem; /*margin-left: 2rem; werkt ook*/
+}
+
+.content--figure--bottom {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+@media (min-width: 50rem) {
+  .content--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
+  .content {
+    max-width: 30%;
+  }
+  
+  .content--figure--top img{
+    min-height: 15rem;
+    max-height: 18.5rem;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 65rem) {
+  .content {
+    max-width: 30%;
+  }
+
+  .content--figure--top img{
+    min-height: 15rem;
+    max-height: 18.5rem;
+  }
 }
 
 .bold-hyper {
@@ -193,7 +321,12 @@
 }
 
 .news-bottom {
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
+}
+
+.news-bottom h3{
+  font-size: 2rem;
+  margin-bottom: .5rem;
 }
 
 .news-top figcaption {
@@ -209,6 +342,45 @@
   width: 100%;
   height: 15rem;
   object-fit: cover;
+}
+
+.news--svg {
+  
+}
+
+@media (min-width: 50rem) {
+  .news-top img {
+    height: 25rem;
+  }
+}
+
+@media (min-width: 65rem) {
+  .news {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .news-top {
+    width: 40%;
+    margin-bottom: 2.5rem;
+  }
+
+  .news-top img {
+    height: auto;
+  }
+
+  .news-bottom {
+    width: 45%;
+  }
+
+  .news-top figcaption {
+    top: 50%;
+    bottom: unset;
+    rotate: -90deg;
+    padding-top: 0;
+    left: -1.6rem;
+  }
 }
 
 .inform {
@@ -230,6 +402,10 @@
 
 .margin {
   margin: 2rem;
+}
+
+.twitter :last-child {
+  margin-top: .5rem;
 }
 
 .twitter img {
