@@ -1,0 +1,147 @@
+.category-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.category-article-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 10%;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.category-article-left button {
+  width: 4rem;
+  height: 3rem;
+  margin: 0rem 1rem 1rem 0rem;
+  background: #fff;
+  border: solid .3rem;
+  color: #000;
+}
+
+.category-article-left path {
+  fill: #000;
+}
+
+.category-article-left button:hover {
+  background: #000;
+  color: white;
+}
+
+.category-article-left button:hover path {
+  fill: #fff;
+}
+
+.minimized-buttons {
+  display: none;
+}
+
+.category-article-right {
+  width: 80%;
+  background: #000;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.category-list {
+  list-style: none;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+@media (min-width: 35rem) {
+  .category-list {
+    columns: 2;
+  }
+}
+
+@media (min-width: 60rem) {
+  .minimized-buttons {
+    display: block;
+    margin-left: .5rem;
+  }
+
+  .category-article-left button {
+    width: 10rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+
+  }
+}
+
+.activities {
+  background: #000;
+  color: white;
+  padding: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin: 1rem;
+}
+
+.activities-search-wrapper {
+  display: flex;
+}
+
+.activities-search-wrapper input {
+  padding: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 1.5rem;
+  width: 80%;
+}
+
+.day-events {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+
+
+.detailed-hyper {
+  color: #000;
+  text-decoration: underline;
+}
+
+.detailed-event ul {
+  list-style-type: none;
+}
+
+.detailed-event span {
+  width: 10rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.detailed-event li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail--social {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail--social li {
+  background: #c0bfbf;
+}
+
+.grid-list--wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
+.grid-list {
+  background: none;
+  border: solid #000 .2rem;
+  padding: .5rem;
+}

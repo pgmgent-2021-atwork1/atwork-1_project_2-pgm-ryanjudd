@@ -1,0 +1,47 @@
+@media (min-width: 80rem) {
+  .dates {
+    width: 20%;
+  }
+
+  .dates-wrapper {
+    width: 45%;
+    position: absolute;
+    right: 0rem;
+    top: 26rem;
+  }
+
+  .wrapper {
+    background-color: #fff;
+    color: #000;
+  }
+  .wrapper:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .dates-top {
+    position: relative;
+  }
+
+  .dates-length {
+    position: absolute;
+    right: 19rem;
+    top: -22rem;
+  }
+
+  .discover {
+    fill: #fff;
+    height: 5rem;
+  }
+
+  .dates-logo-colour {
+    fill: #fff;
+  }
+
+  .dates-logo {
+    position: absolute;
+    right: 10rem;
+    height: 5rem;
+    rotate: -90deg;
+  }
+}
